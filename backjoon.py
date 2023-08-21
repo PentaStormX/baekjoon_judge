@@ -515,6 +515,7 @@ sumMatrix(A, B)
 """
 
 # 최대값
+"""
 import sys
 
 MATRIX = 9
@@ -539,3 +540,6 @@ for i in range(MATRIX):
     A[i] = list(map(int, sys.stdin.readline().rstrip().split()))
 
 findMax()
+"""
+
+# 세로 읽기
